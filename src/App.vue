@@ -1,15 +1,21 @@
 <template>
-  <div id="app">
-    <router-view />
-  </div>
+  <router-view />
 </template>
 
 <style lang="less">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@font-face {
+  font-family: "webfont";
+  font-display: swap;
+  src: url("//at.alicdn.com/t/webfont_05em1mwfr55a.eot"); /* IE9*/
+  src: url("//at.alicdn.com/t/webfont_05em1mwfr55a.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("//at.alicdn.com/t/webfont_05em1mwfr55a.woff2")
+      format("woff2"),
+    url("//at.alicdn.com/t/webfont_05em1mwfr55a.woff") format("woff"),
+    /* chrome、firefox */ url("//at.alicdn.com/t/webfont_05em1mwfr55a.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("//at.alicdn.com/t/webfont_05em1mwfr55a.svg#杨任东竹石体-Bold")
+      format("svg"); /* iOS 4.1- */
 }
 </style>
