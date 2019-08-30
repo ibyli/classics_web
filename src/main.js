@@ -4,6 +4,7 @@ import {
 } from 'element-ui';
 import App from './App.vue';
 import router from './router';
+import store from './store';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/styles/reset.css';
 
@@ -20,5 +21,6 @@ Vue.use(Icon);
 
 new Vue({
   router,
+  store,
   render: h => h(App),
 }).$mount('#app');

@@ -10,7 +10,11 @@
       <section class="exhibition__desc">
         <h2 class="exhibition__desc--name">古典名著苑</h2>
         <h3 class="exhibition__desc--explain">最全古典小说</h3>
-        <img class="exhibition__desc--code" src="https://classics.oss-cn-beijing.aliyuncs.com/app/QRcode.jpg" alt="二维码">
+        <img
+          class="exhibition__desc--code"
+          src="https://classics.oss-cn-beijing.aliyuncs.com/app/QRcode.jpg?x-oss-process=style/fade"
+          alt="二维码"
+        />
       </section>
     </el-col>
   </el-row>
@@ -23,7 +27,7 @@ export default {};
 <style lang="less" scoped>
 .main {
   height: calc(100vh - 60px);
-  background: url("https://classics.oss-cn-beijing.aliyuncs.com/app/main-jpg.jpg")
+  background: url("https://classics.oss-cn-beijing.aliyuncs.com/app/main-jpg.jpg?x-oss-process=style/fade")
     0 0 / cover no-repeat;
   .main__exhibition {
     display: flex;
@@ -45,7 +49,7 @@ export default {};
     height: 300px;
     color: #fff;
     .exhibition__desc--name {
-      font-family: 'webfont';
+      font-family: "webfont";
       font-weight: 600;
       font-size: 36px;
     }
