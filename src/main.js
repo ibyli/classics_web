@@ -3,7 +3,7 @@ import {
   Button, Row, Col, Image, Popover, Tooltip, Link, Backtop, Icon,
 } from 'element-ui';
 import App from './App.vue';
-import router from './router';
+import router from './router/index';
 import store from './store';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/styles/reset.css';

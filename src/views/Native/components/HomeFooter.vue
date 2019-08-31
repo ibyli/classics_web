@@ -35,6 +35,17 @@
           </el-tooltip>
         </li>
         <li>
+          <a style="margin-left: 0" href="javascript:void(0)" slot="reference">
+            © 2019
+            <el-link
+              style="margin-left: 0"
+              href="https://github.com/ibyli/"
+              target="_blank"
+              type="info"
+            >ibyli</el-link>. All Rights Reserved.
+          </a>
+        </li>
+        <li>
           <el-tooltip effect="dark" content="ICP备案查询" placement="top-start">
             <el-link
               style="margin-left: 0"
@@ -80,7 +91,7 @@ https://big-frontend.oss-cn-beijing.aliyuncs.com/app/qrcode/qrcode_for_gh_542ac3
 export default {};
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 // @import '@/assets/styles/utils.less';
 h2 {
   margin-bottom: 30px;
@@ -89,9 +100,10 @@ h2 {
 }
 
 .footer {
-  min-height: 550px;
-  padding: 0 50px;
+  min-height: 450px;
+  padding: 50px;
   background-color: #f7fbfd;
+  flex-wrap: wrap;
   .footer__contact {
     display: flex;
     flex-direction: column;
@@ -118,7 +130,7 @@ h2 {
   }
 
   .footer__about {
-    .footer__contact;
+    @extend .footer__contact;
   }
 
   .footer__generalize {

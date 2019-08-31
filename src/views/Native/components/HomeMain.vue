@@ -24,7 +24,12 @@
 export default {};
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
+@media screen and (max-width: 500px) {
+  .exhibition__phone {
+    display: none;
+  }
+}
 .main {
   height: calc(100vh - 60px);
   background: url("https://classics.oss-cn-beijing.aliyuncs.com/app/main-jpg.jpg?x-oss-process=style/fade")
@@ -32,34 +37,36 @@ export default {};
   .main__exhibition {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    width: 500px;
+    max-width: 500px;
     height: 500px;
-    .exhibition__phone {
-      width: 200px;
-      height: 400px;
-    }
-  }
 
-  .exhibition__desc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    color: #fff;
-    .exhibition__desc--name {
-      font-family: "webfont";
-      font-weight: 600;
-      font-size: 36px;
+    .exhibition__phone {
+      width: 250px;
+      height: 500px;
     }
-    .exhibition__desc--explain {
-      margin: 20px 0 40px 0;
-      font-size: 22px;
-    }
-    .exhibition__desc--code {
-      width: 180px;
-      height: 180px;
+
+    .exhibition__desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+      height: 300px;
+      color: #fff;
+      .exhibition__desc--name {
+        font-family: "webfont";
+        font-weight: 600;
+        font-size: 40px;
+      }
+      .exhibition__desc--explain {
+        margin: 20px 0 40px 0;
+        font-size: 22px;
+      }
+      .exhibition__desc--code {
+        width: 180px;
+        height: 180px;
+      }
     }
   }
 }

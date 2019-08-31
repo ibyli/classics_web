@@ -2,7 +2,7 @@
   <router-view />
 </template>
 
-<style lang="less">
+<style lang="scss">
 @font-face {
   font-family: "webfont";
   font-display: swap;
@@ -17,5 +17,9 @@
     /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
       url("//at.alicdn.com/t/webfont_05em1mwfr55a.svg#杨任东竹石体-Bold")
       format("svg"); /* iOS 4.1- */
+}
+
+:root {
+  --theme-color: #f67280;
 }
 </style>

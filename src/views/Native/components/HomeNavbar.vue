@@ -1,7 +1,7 @@
 <template>
   <el-row
     class="header"
-    :style="{top: isShow ? 0 : '', backgroundColor: isShow ? 'rgba(255, 255, 255, 0.5)' : 'rgba(255, 255, 255, 1)'}"
+   :style="{top: isShow ? 0 : '', backgroundColor: isShow ? 'rgba(255, 255, 255, 0.5)' : 'rgba(255, 255, 255, 1)'}"
     tag="header"
     type="flex"
     justify="space-between"
@@ -88,13 +88,24 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 // @import '@/assets/styles/utils.less';
+@media screen and (max-width: 500px) {
+  .header__navbar .navbar__item {
+    display: none;
+  }
+  .header__logo {
+    margin: 0 auto;
+  }
+  .header {
+    padding: 0;
+  }
+}
 .header {
   position: sticky;
   z-index: 999;
   height: 60px;
-  padding: 0 50px;
+  padding: 0 5vw;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
   transition: background-color 1s;
   .header__logo {
