@@ -6,16 +6,16 @@
 @font-face {
   font-family: "webfont";
   font-display: swap;
-  src: url("//at.alicdn.com/t/webfont_05em1mwfr55a.eot"); /* IE9*/
-  src: url("//at.alicdn.com/t/webfont_05em1mwfr55a.eot?#iefix")
+  src: url("//at.alicdn.com/t/webfont_oibkvkrqkze.eot"); /* IE9*/
+  src: url("//at.alicdn.com/t/webfont_oibkvkrqkze.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-IE8 */ url("//at.alicdn.com/t/webfont_05em1mwfr55a.woff2")
+    /* IE6-IE8 */ url("//at.alicdn.com/t/webfont_oibkvkrqkze.woff2")
       format("woff2"),
-    url("//at.alicdn.com/t/webfont_05em1mwfr55a.woff") format("woff"),
-    /* chrome、firefox */ url("//at.alicdn.com/t/webfont_05em1mwfr55a.ttf")
+    url("//at.alicdn.com/t/webfont_oibkvkrqkze.woff") format("woff"),
+    /* chrome、firefox */ url("//at.alicdn.com/t/webfont_oibkvkrqkze.ttf")
       format("truetype"),
     /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-      url("//at.alicdn.com/t/webfont_05em1mwfr55a.svg#杨任东竹石体-Bold")
+      url("//at.alicdn.com/t/webfont_oibkvkrqkze.svg#杨任东竹石体-Bold")
       format("svg"); /* iOS 4.1- */
 }
 

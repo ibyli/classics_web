@@ -8,7 +8,7 @@
         fit="contain"
       />
       <section class="exhibition__desc">
-        <h2 class="exhibition__desc--name">古典名著苑</h2>
+        <h2 class="exhibition__desc--name">古典文学名著阅读</h2>
         <h3 class="exhibition__desc--explain">最全古典小说</h3>
         <img
           class="exhibition__desc--code"

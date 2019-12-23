@@ -13,7 +13,7 @@
         src="https://classics.oss-cn-beijing.aliyuncs.com/app/logo.png"
         alt="logo"
       />
-      <h1 class="logo__text">古典名著苑</h1>
+      <h1 class="logo__text">古典文学名著阅读</h1>
     </a>
     <nav class="header__navbar">
       <a
@@ -49,11 +49,11 @@ export default {
           url: '',
           title: '',
         },
-        {
-          name: '知晓程序',
-          url: 'https://minapp.com/user/78359833/',
-          title: '知晓程序--古典名著苑',
-        },
+        // {
+        //   name: '知晓程序',
+        //   url: 'https://minapp.com/user/78359833/',
+        //   title: '知晓程序--古典文学名著阅读',
+        // },
       ],
     };
   },

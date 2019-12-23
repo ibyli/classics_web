@@ -31,7 +31,7 @@
       <ul class="contact__list">
         <li>
           <el-tooltip effect="dark" content="暂未开通" placement="top-start">
-            <el-link style="margin-left: 0" type="info">古典名著苑使用手册</el-link>
+            <el-link style="margin-left: 0" type="info">古典文学名著阅读使用手册</el-link>
           </el-tooltip>
         </li>
         <li>
@@ -78,8 +78,8 @@ https://big-frontend.oss-cn-beijing.aliyuncs.com/app/qrcode/qrcode_for_gh_542ac3
           />
         </li>
         <li>
-          <el-tooltip effect="dark" content="大前端技术分享博客" placement="top-start">
-            <el-link type="info" href="https://blog.furuzix.top/" target="_blank">博客</el-link>
+          <el-tooltip effect="dark" content="Darkce" placement="top-start">
+            <el-link type="info" href="https://luoxuhai.netlify.com/" target="_blank">博客</el-link>
           </el-tooltip>
         </li>
       </ul>
