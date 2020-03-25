@@ -6,7 +6,7 @@
         <li class="iconfont icon-xinfeng">
           <el-tooltip effect="dark" content="发送邮件" placement="top-start">
             <a href="mailto:2639415619@qq.com
-        ?subject=古典名著苑意见反馈">意见反馈</a>
+        ?subject=古典文学名著阅读意见反馈">意见反馈</a>
           </el-tooltip>
         </li>
         <li class="iconfont icon-qq">
@@ -18,7 +18,7 @@
           <el-popover placement="top-start" width="150" trigger="hover">
             <img
               style="width: 150px"
-              src="https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/SmartSelect_20190816-184440_WeChat.jpg?x-oss-process=style/m"
+              src="https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/mmqrcode1580471197905.png"
               alt="微信二维码"
             />
             <a href="javascript:void(0)" slot="reference">Danyouqf2017</a>
@@ -39,10 +39,10 @@
             © 2019
             <el-link
               style="margin-left: 0"
-              href="https://github.com/ibyli/"
+              href="https://luoxuhai.netlify.com/"
               target="_blank"
               type="info"
-            >ibyli</el-link>. All Rights Reserved.
+            >luoxuhai</el-link>. All Rights Reserved.
           </a>
         </li>
         <li>
@@ -61,35 +61,31 @@
       <h2>更多</h2>
       <ul class="generalize__list">
         <li>
-          <h5>大前端技术分享小程序</h5>
+          <h5>快用工具小程序</h5>
           <img
             style="width: 150px"
-            src="https://big-frontend.oss-cn-beijing.aliyuncs.com/app/qrcode/mmexport1565777952506.jpg?x-oss-process=style/m"
+            src="https://static.fastools.cn/images/miniapp.jpg"
             alt="微信二维码"
           />
         </li>
         <li>
-          <h5>大前端技术分享公众号</h5>
+          <h5>快用工具公众号</h5>
           <img
             style="width: 150px"
             src="
-https://big-frontend.oss-cn-beijing.aliyuncs.com/app/qrcode/qrcode_for_gh_542ac3ad35f4_430.jpg?x-oss-process=style/m"
+https://static.fastools.cn/images/qrcode.jpg?x-oss-process=style/fade"
             alt="微信二维码"
           />
         </li>
         <li>
           <el-tooltip effect="dark" content="Darkce" placement="top-start">
-            <el-link type="info" href="https://luoxuhai.netlify.com/" target="_blank">博客</el-link>
+            <el-link type="info" href="https://www.fastools.cn/" target="_blank">快用工具官网</el-link>
           </el-tooltip>
         </li>
       </ul>
     </el-col>
   </el-row>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style lang="scss" scoped>
 // @import '@/assets/styles/utils.less';
